@@ -6,7 +6,7 @@ import CounterReducer from './counterReducer'
 import Counter from './counter'
 
 const reducers = combineReducers({
-    field: CounterReducer
+    counter: CounterReducer
 })
 
 ReactDOM.render(
